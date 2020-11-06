@@ -1,0 +1,83 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.top-nav-collapse {
+  background-color: #AA6C39; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #AA6C39; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #AA6C39; }
+
+
+
+
+
+
+body{
+  font-family:adobe-garamond-pro, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+main, html{
+  background-color: #FFD1AA;
+}
+.qoute-sub{ 
+font-family: adobe-garamond-pro, serif;
+font-weight: 400;
+font-style: italic;
+font-size: 1.5rem;
+
+
+}
+
+.qoute-h3{
+font-family: adobe-garamond-pro, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2rem;
+}
+
+.author {
+font-family:adobe-garamond-pro, serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+}
+
+.qoute1:hover{
+  -webkit-animation: pulse 1s;
+animation: pulse 1s;
+ }
+
+
